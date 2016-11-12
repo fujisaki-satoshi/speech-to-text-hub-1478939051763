@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: speech-to-text-hub
+  host: speech-to-text-hub
+  disk_quota: 1024M
+  services:
+  - Speech To Text
